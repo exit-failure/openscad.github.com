@@ -1,3 +1,7 @@
+:root {
+	--leftmargin: 6em;
+  }
+
 body {
 	font-family: "UbuntuMonoRegular", "Ubuntu Mono", 'courier new', monospace, sans-serif;
 	font-size: 100%;
@@ -106,7 +110,11 @@ dt {
 }
 
 dd {
-	margin: 0 0 .5em 4em;
+	margin: 0 0 .5em 10em;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: .5em;
+	margin-left: var(--leftmargin);
     color: #000
 }
 
